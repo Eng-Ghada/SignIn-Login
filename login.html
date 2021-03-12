@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Source+Serif+Pro:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        
+        
+    </head>
+
+    <body>
+
+        <div id="signIn" class="container text-center  ">
+            <div class="w-75 mt-5  py-5 px-5 login ">
+                <h1 class="mb-4 text-info">Smart Login System</h1>
+                <input type="email" class="w-100 rounded p-1-5 border  border-1 mb-3 bg-transparent " placeholder="Enter your e-mail"  name="" id="emailSignIn">
+                
+                <input type="password" class="w-100 rounded p-1-5 border  border-1 mb-4 bg-transparent" placeholder="Enter your password" name="" id="passwordSignIn">
+                <p id="loginAlert" class="text-danger"></p>
+                <button onclick="logIn()"  class="form-control mb-3 btn btn-outline-info text-info">Login</button>
+                <p class="text-light">Don’t have an account? <a class="text-light" id="signUpLink" href="signup.html" >Sign Up</a></p>
+            </div>
+        </div>
+        
+
+        <div id="welcome" class="container-fluid px-0 ">
+            <div class="par fixed-top w-100">
+                <div class="row pt-4 pb-2 px-5 mx-5">
+                    <p class="text-light h3">SMART LOGIN</p>
+                    <button  class="btn btn-outline-warning ml-auto text-muted" type="button" onclick="logOut()">Logout</button>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center vh-100 text-center">
+            <div class="message w-75  ">
+            <p id="welcomeName" class="p-5 h1 text-info">Welcome </p>
+            </div>
+            </div>
+        </div>
+        
+        <script src="js/login.js"></script>
+    </body>
+</html>

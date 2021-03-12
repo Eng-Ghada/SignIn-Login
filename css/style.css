@@ -1,0 +1,43 @@
+body
+{
+    background-color:  #22323b;
+   
+
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.login , .message, .par 
+{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}    
+
+.p-1-5
+{
+    padding: 5px;
+}
+
+  
+  ::placeholder {
+    color: white;
+    opacity: 1;
+    font-weight: 100;
+  }
+
+  
+ #registAlert ,#loginAlert, #welcome
+  {
+    display: none;
+  }
+
+  #signIn
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  input
+  {
+    color: white;
+  }
